@@ -50,3 +50,14 @@ header{
 }
 
 
+.me{
+
+    background: linear-gradient(var(--
+    ), transparent);
+    width:22rem;
+    height:30rem;
+    position:absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem;
+}
