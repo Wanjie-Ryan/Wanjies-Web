@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
-
-
+import Action from './action'
+import MyImage from '../../images/me.jpeg'
 
 
 function Header() {
@@ -21,6 +21,18 @@ function Header() {
           <h1>Wanjie Ryan.</h1> 
 
           <h5 className="text-light">I am a FullStack Developer.</h5>
+
+          <Action/>
+
+          <div className="me">
+
+            <img src ={MyImage} alt=''/>
+
+          </div>
+
+
+          <a href ='#contact' className='scroll-down'>Scroll Down</a>
+
 
         </div>
 
