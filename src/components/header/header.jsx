@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import Action from './action'
 import MyImage from '../../images/me.jpeg'
+import Socials from './socials'
 
 
 function Header() {
@@ -23,6 +24,7 @@ function Header() {
           <h5 className="text-light">I am a FullStack Developer.</h5>
 
           <Action/>
+          <Socials/>
 
           <div className="me">
 
