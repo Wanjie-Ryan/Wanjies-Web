@@ -76,5 +76,64 @@
 
 .about-content p{
 
-    
+    margin:2rem 0 2.6rem;
+    color:var(--color-light);
+}
+
+
+    /* media query for medium devices like tablets */
+
+@media screen and (max-width:1024px){
+
+    .about-container{
+
+        grid-template-columns: 1fr;
+        gap:0;
+    }
+
+    .about-me{
+
+        width:50%;
+        margin:2rem auto 4rem;
+
+
+    }
+
+    .about-content p{
+
+        margin:1rem 0 1.5rem;
+    }
+
+}
+
+
+
+
+    /* media query for small devices like phones */
+
+
+@media screen  and (max-width:600px){
+
+
+    .about-me{
+
+        width:65%;
+        margin:0 auto 3rem;
+
+    }
+
+    .about-cards{
+        grid-template-columns: 1fr ;
+        gap:1rem;
+    }
+
+    .about-content{
+
+        text-align: center;
+    }
+
+    .about-content p{
+
+        margin:1.5rem 0;
+    }
 }

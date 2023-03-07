@@ -72,7 +72,7 @@ function About() {
               I am an Experienced Software Developer, I love Programming and I am always learning and seeking to know new Tricks and Knowledge.
 
               <br></br>
-              Apart from Programming, I also love football not only an Fc Barcelona fan but also playing.  
+              Apart from Programming, I also love football, not only an Fc Barcelona fan,but also playing.  
 
               <br></br>
 
