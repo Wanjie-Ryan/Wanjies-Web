@@ -48,8 +48,10 @@ function About() {
 
               <FaUsers className='about-icon'/>
               <h5>Clients</h5>
-              <small>Worked with over 3 clients countrywide.</small>
-
+              <small>
+                Worked with over 3 clients countrywide.
+                <br></br>
+                You've Got a project? Contact me.</small>
 
             </article>
 
@@ -95,9 +97,6 @@ function About() {
 
 
 
-
-      
-      
     </section>
     
     
