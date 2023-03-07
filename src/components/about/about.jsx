@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-
+import MyImage from '../../images/me.jpeg'
+import {FaAward} from 'react-icons/fa'
 
 
 function About() {
@@ -21,7 +22,7 @@ function About() {
         <div className="about-me">
           <div className="about-me-img">
 
-              <img src ='' alt = ''/>
+              <img src ={MyImage} alt = ''/>
 
           </div>
 
@@ -30,9 +31,40 @@ function About() {
 
 
         <div className="about-content">
+          <div className="about-cards">
+
+            <article className='about-card'>
+
+              <FaAward className='about-icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years Working Experience.</small>
 
 
-          
+            </article>
+
+            <article className='about-card'>
+
+              <FaAward className='about-icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years Working Experience.</small>
+
+
+            </article>
+
+
+            <article className='about-card'>
+
+              <FaAward className='about-icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years Working Experience.</small>
+
+
+            </article>
+
+
+          </div>
+
+
         </div>
 
 
