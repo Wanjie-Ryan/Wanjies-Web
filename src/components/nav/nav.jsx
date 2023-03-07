@@ -24,25 +24,9 @@ function Nav() {
         <a href ='#contact'> <TiContacts/> </a>
 
 
-
-
-
-
-
-
       </nav>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     </>
 
 
