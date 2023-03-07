@@ -74,3 +74,45 @@ header{
     /* font-weight: 300; */
     font-size: 0.9rem;
 }
+
+
+        /* Responsivesness */
+
+        /* For medium screened devices like tablets */
+
+@media screen and (max-width:1024px){
+
+    /* .container{
+
+        background-color: red;
+    } */
+
+    header{
+
+        height:68vh;
+    }
+    
+}
+
+
+            /* For small devices like phones */
+
+@media screen and (max-width:600px){
+
+    /* .container{
+
+        background-color: red;
+    } */
+
+    header{
+
+        height:100vh;
+
+    }
+
+    .header-socials,.scroll-down{
+        display:none;
+    }
+    
+}
+ 
