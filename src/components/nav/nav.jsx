@@ -1,7 +1,9 @@
 import React from 'react'
 import './nav.css'
-import {BiHomeSmile} from 'react-icons/bi'
-
+import {BiHomeSmile, BiUserCircle} from 'react-icons/bi'
+import {BsBook} from 'react-icons/bs'
+import {MdDesignServices} from 'react-icons/md'
+import {TiContacts} from 'react-icons/ti'
 
 function Nav() {
 
@@ -15,11 +17,11 @@ function Nav() {
       <nav>
 
 
-        <a href ='#'> <BiHomeSmile/> </a>
-        <a href ='#about'> <BiHomeSmile/> </a>
-        <a href ='#experience'> <BiHomeSmile/> </a>
-        <a href ='#services'> <BiHomeSmile/> </a>
-        <a href ='#contact'> <BiHomeSmile/> </a>
+        <a href ='#home'> <BiHomeSmile/> </a>
+        <a href ='#about'> <BiUserCircle/> </a>
+        <a href ='#experience'> <BsBook/> </a>
+        <a href ='#services'> <MdDesignServices/> </a>
+        <a href ='#contact'> <TiContacts/> </a>
 
 
 

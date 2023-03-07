@@ -4,8 +4,19 @@ import './about.css'
 
 
 function About() {
+
+
   return (
-    <div>A</div>
+
+    <>
+    
+    <section id ='about'>About</section>
+    
+    
+    </>
+
+
+
   )
 }
 
