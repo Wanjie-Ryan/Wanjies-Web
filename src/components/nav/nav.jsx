@@ -17,7 +17,7 @@ function Nav() {
       <nav>
 
 
-        <a href ='#home'> <BiHomeSmile/> </a>
+        <a href ='#home' className='active'> <BiHomeSmile/> </a>
         <a href ='#about'> <BiUserCircle/> </a>
         <a href ='#experience'> <BsBook/> </a>
         <a href ='#services'> <MdDesignServices/> </a>
