@@ -1,5 +1,8 @@
 import React from 'react'
 import './experience.css'
+import {FaHtml5} from 'react-icons/fa'
+
+
 
 
 function Experience() {
@@ -22,7 +25,60 @@ function Experience() {
 
         <div className="exp-frontend">
 
-          
+          <h3>Frontend Development</h3>
+
+          <div className="exp-content">
+
+            <article className="exp-details">
+
+              <FaHtml5/>
+              <h4>HTML</h4>
+              <small className="text-light">I have a diverse experience in HTML.</small>
+
+            </article>
+
+
+            <article className="exp-details">
+
+              <FaHtml5/>
+              <h4>HTML</h4>
+              <small className="text-light">I have a diverse experience in HTML.</small>
+
+            </article>
+
+
+
+            <article className="exp-details">
+
+              <FaHtml5/>
+              <h4>HTML</h4>
+              <small className="text-light">I have a diverse experience in HTML.</small>
+
+            </article>
+
+
+            <article className="exp-details">
+
+              <FaHtml5/>
+              <h4>HTML</h4>
+              <small className="text-light">I have a diverse experience in HTML.</small>
+
+            </article>
+
+
+
+            <article className="exp-details">
+
+              <FaHtml5/>
+              <h4>HTML</h4>
+              <small className="text-light">I have a diverse experience in HTML.</small>
+
+            </article>
+
+
+
+
+          </div>
 
 
 
