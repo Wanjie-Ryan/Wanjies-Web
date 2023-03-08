@@ -145,7 +145,7 @@ function Service() {
 
                 <BiCheck className = 'icon'/>
 
-                <p>Solving computational problems.</p>
+                <p>Solving Computational and Technical problems.</p>
               </li>
 
 
