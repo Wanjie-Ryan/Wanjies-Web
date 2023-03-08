@@ -34,7 +34,7 @@ function Experience() {
 
             <article className="exp-details">
 
-              <FaHtml5/>
+              <FaHtml5 className = 'icons'/>
               <div>
 
                 <h4>HTML</h4>
@@ -47,7 +47,7 @@ function Experience() {
 
             <article className="exp-details">
 
-              <RiCss3Fill/>
+              <RiCss3Fill className = 'icons'/>
 
               <div>
 
@@ -62,7 +62,7 @@ function Experience() {
 
             <article className="exp-details">
 
-              <TbBrandJavascript/>
+              <TbBrandJavascript className = 'icons'/>
 
               <div>
                 <h4>Javascript</h4>
@@ -74,7 +74,7 @@ function Experience() {
 
             <article className="exp-details">
 
-              <FaReact/>
+              <FaReact className = 'icons'/>
 
               <div>
 
@@ -89,7 +89,7 @@ function Experience() {
 
             <article className="exp-details">
 
-              <FaPython/>
+              <FaPython className = 'icons'/>
 
               <div>
 
@@ -103,7 +103,7 @@ function Experience() {
 
             <article className='exp-details'>
 
-              <FaJava/>
+              <FaJava className = 'icons'/>
 
               <div>
 
@@ -118,7 +118,7 @@ function Experience() {
 
             <article className='exp-details'>
 
-              <BsGithub/>
+              <BsGithub className = 'icons'/>
 
               <div>
 
@@ -132,7 +132,7 @@ function Experience() {
 
             <article className='exp-details'>
 
-              <BsFillPenFill/>
+              <BsFillPenFill className = 'icons'/>
 
               <div>
 
@@ -159,7 +159,7 @@ function Experience() {
 
                   <article className="exp-details">
 
-                    <SiXampp/>
+                    <SiXampp className = 'icons'/>
 
                     <div>
 
@@ -173,7 +173,7 @@ function Experience() {
 
                   <article className="exp-details">
 
-                    <SiPostgresql/>
+                    <SiPostgresql className = 'icons'/>
 
                     <div>
 
@@ -188,7 +188,7 @@ function Experience() {
 
                   <article className="exp-details">
 
-                    <SiPostman/>
+                    <SiPostman className = 'icons'/>
 
                     <div>
 
@@ -202,7 +202,7 @@ function Experience() {
 
                   <article className="exp-details">
 
-                    <FaNodeJs/>
+                    <FaNodeJs className = 'icons'/>
 
                     <div>
 
@@ -217,10 +217,10 @@ function Experience() {
 
                   <article className="exp-details">
 
-                    <SiMongodb/>
+                    <SiMongodb className = 'icons'/>
 
                     <div>
-                      
+
                         <h4>MongoDB</h4>
                         <small className="text-light">I have a diverse experience in NON-SQL <b>MongoDB</b>.</small>
 
