@@ -3,7 +3,7 @@ import './experience.css'
 import {FaHtml5,FaReact,FaPython,FaJava,FaNodeJs} from 'react-icons/fa'
 import {RiCss3Fill} from 'react-icons/ri'
 import {TbBrandJavascript} from 'react-icons/tb'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub,BsFillPenFill} from 'react-icons/bs'
 import {SiXampp,SiPostgresql,SiPostman,SiMongodb} from 'react-icons/si'
 
 
@@ -94,6 +94,15 @@ function Experience() {
               <BsGithub/>
               <h4>Git and Github.</h4>
               <small className="text-light">I have a diverse experience in <b>Github and Git commands</b>.</small>
+
+            </article>
+
+
+            <article className='exp-details'>
+
+              <BsFillPenFill/>
+              <h4>Online writing, Documentation and Content Writing.</h4>
+              <small className="text-light">I have a diverse experience in <b>Online content writing</b>.</small>
 
             </article>
 
