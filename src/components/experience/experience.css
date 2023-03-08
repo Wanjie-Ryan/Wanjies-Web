@@ -59,6 +59,7 @@
     .experience-container{
 
         grid-template-columns: 1fr;
+        
     }
 
     .experience-container >div{
@@ -95,7 +96,10 @@
     }
 
 
+    .text-light{
 
+        text-overflow: clip;
+    }
 
 
 }
