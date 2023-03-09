@@ -16,7 +16,7 @@ function About() {
     <section id ='about'>
       
       <h5>Get To Know</h5>
-      <h2>About Wanjie Ryan</h2>
+      <h2 className='bounce'>About Wanjie Ryan</h2>
       
       
       <div className="container about-container">

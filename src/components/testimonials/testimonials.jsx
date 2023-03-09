@@ -14,7 +14,7 @@ function Testimonials() {
       <section id="testimonials">
 
         <h5>Reviews from Clients.</h5>
-        <h2>Testimonials</h2>
+        <h2 className='bounce'>Testimonials</h2>
 
         <div className="container tes-container">
 
