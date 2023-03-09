@@ -41,7 +41,7 @@ function Service() {
 
                 <BiCheck className = 'icon'/>
 
-                <p>Performing data Visualization and analysis.</p>
+                <p>Performing data Analysis and Visualization.</p>
               </li>
 
             </ul>
@@ -153,10 +153,6 @@ function Service() {
             </ul>
 
           </article>
-
-
-
-
 
 
       </div>
