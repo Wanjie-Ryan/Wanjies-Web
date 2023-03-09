@@ -121,7 +121,7 @@ a:hover{
   color:var(--color-bg);
 }
 
-img{
+img, .video{
   display: block;
   width:100%;
   object-fit: cover;

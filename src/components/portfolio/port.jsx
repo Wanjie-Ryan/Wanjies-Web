@@ -25,10 +25,11 @@ function Port() {
 
             <div className="portimage">
 
-            <video controls>
-              <source src={video} type="video/mp4" className='video'/>
-              Your browser does not support the video.
-            </video>
+                <video controls className='video'>
+                  <source src={video} type="video/mp4" />
+                  Your browser does not support the video.
+                </video>
+
             </div>
 
 
@@ -56,9 +57,13 @@ function Port() {
 
 
             <h3>Superior Beehive.</h3>
-            <a href ='https://github.com/Wanjie-Ryan/BeeTree-client' className='btn' target = '_blank' rel="noreferrer">Github</a>
-            <a href ='https://thybee.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
+            <div className="port-cta">
+
+              <a href ='https://github.com/Wanjie-Ryan/BeeTree-client' className='btn' target = '_blank' rel="noreferrer">Github</a>
+              <a href ='https://thybee.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+
+            </div>
 
 
           </article>
@@ -75,10 +80,13 @@ function Port() {
 
             <h3>Rawa Booking App.</h3>
 
+            <div className="port-cta">
 
-            <a href ='https://github.com/Wanjie-Ryan/Modern-Reservations-App' className='btn' target = '_blank' rel="noreferrer">Github</a>
-            <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
+              <a href ='https://github.com/Wanjie-Ryan/Modern-Reservations-App' className='btn' target = '_blank' rel="noreferrer">Github</a>
+              <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+
+            </div>
 
 
           </article>

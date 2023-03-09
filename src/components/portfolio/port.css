@@ -31,3 +31,12 @@
 
     margin:1.2rem 0 2rem;
 }
+
+
+.port-cta{
+
+    display:flex;
+    gap:1.3rem;
+    margin-bottom: 1rem;
+}
+
