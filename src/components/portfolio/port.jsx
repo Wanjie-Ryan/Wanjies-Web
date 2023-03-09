@@ -4,6 +4,42 @@ import video from '../../images/waka.mp4'
 import hive from '../../images/beehive.png'
 
 
+const data =[
+
+  {
+    id:1,
+    image: hive,
+    title:'Superior Beehive.',
+    github:'https://github.com/Wanjie-Ryan/BeeTree-client',
+    demo:'https://thybee.netlify.app/'
+  },
+
+  {
+    id:2,
+    image: hive,
+    title:'Rawa Booking App.',
+    github:'https://github.com/Wanjie-Ryan/Modern-Reservations-App',
+    demo:'https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie'
+
+  },
+
+  {
+
+    id:3,
+    image: video,
+    title:'Real Estate Management System.',
+    github:'https://github.com/orgs/Astro-Devs-Tech/repositories',
+    demo:'https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie'
+
+
+  }
+
+
+
+]
+
+
+
 
 function Port() {
 
@@ -21,76 +57,49 @@ function Port() {
 
         <div className="container portfolio-container">
 
-          <article className="portfolio-item">
+          {
 
-            <div className="portimage">
+            
+            data.map(({id,image, title, github, demo})=>{
 
-                <video controls className='video'>
-                  <source src={video} type="video/mp4" />
-                  Your browser does not support the video.
-                </video>
-
-            </div>
+              return(
 
 
-            <h3>Wakawaka Real Estate Management System.</h3>
+                  <article className="portfolio-item">
 
-            <div className="port-cta">
+                    <div className="portimage">
 
+                        <video controls className='video'>
+                          <sour ce src={video} type="video/mp4" />
+                          Your browser does not support the video.
+                        </video>
 
-              <a href ='https://github.com/orgs/Astro-Devs-Tech/repositories' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
-
-            </div>
-
-
-
-          </article>
+                    </div>
 
 
-          <article className="portfolio-item">
+                    <h3>Wakawaka Real Estate Management System.</h3>
 
-            <div className="portimage">
-
-              <img src = {hive} alt =''/>
-            </div>
+                    <div className="port-cta">
 
 
-            <h3>Superior Beehive.</h3>
+                      <a href ='https://github.com/orgs/Astro-Devs-Tech/repositories' className='btn' target = '_blank' rel="noreferrer">Github</a>
+                      <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
-            <div className="port-cta">
-
-              <a href ='https://github.com/Wanjie-Ryan/BeeTree-client' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://thybee.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
-
-            </div>
-
-
-          </article>
+                    </div>
 
 
 
-          <article className="portfolio-item">
-
-            <div className="portimage">
-
-            <img src = '' alt = ''/>
-            </div>
+                  </article>
+              )
+              })
 
 
-            <h3>Rawa Booking App.</h3>
 
-            <div className="port-cta">
-
-
-              <a href ='https://github.com/Wanjie-Ryan/Modern-Reservations-App' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
-
-            </div>
+          }
 
 
-          </article>
 
+          
         </div>
 
 

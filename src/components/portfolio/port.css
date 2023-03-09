@@ -40,3 +40,29 @@
     margin-bottom: 1rem;
 }
 
+
+        /* medium screen  for tablets */
+
+@media screen and (max-width:1024px){
+
+    .portfolio-container{
+
+        grid-template-columns: 1fr 1fr;
+        gap:1.2rem;
+    }
+
+}
+
+
+        /* for small screens like tablets */
+
+@media screen and (max-width:600px) {
+
+
+    .portfolio-container{
+        grid-template-columns: 1fr;
+        gap:1rem;
+        
+    }
+    
+}
