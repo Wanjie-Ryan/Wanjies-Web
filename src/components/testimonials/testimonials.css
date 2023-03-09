@@ -1,5 +1,14 @@
 .tes-container{
 
     width:40%;
-    
+
+}
+
+.test{
+
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
 }
