@@ -14,7 +14,7 @@ function Service() {
     <section id ='services' >
 
       <h5>What I Offer...</h5>
-      <h2>Services</h2>
+      <h2 class ='bounce'>Services</h2>
 
 
       <div className="container services-container">

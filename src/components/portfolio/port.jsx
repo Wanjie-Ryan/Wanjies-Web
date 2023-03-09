@@ -38,7 +38,7 @@ function Port() {
 
 
         <h5>My Recent Work</h5>
-        <h2>Portfolio</h2>
+        <h2 className='bounce' >Portfolio</h2>
 
         <div className="container portfolio-container">
 

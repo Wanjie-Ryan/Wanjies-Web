@@ -20,7 +20,7 @@ function Experience() {
     <section id ='experience'>
 
       <h5>Skills That I possess...</h5>
-      <h2>My Experience</h2>
+      <h2 className='bounce'>My Experience</h2>
 
 
       <div className="container experience-container">

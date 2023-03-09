@@ -64,6 +64,20 @@
     font-size: 0.9rem;
 }
 
+.bounce{
+
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
 
 
 @media screen and (max-width: 1024px) {
