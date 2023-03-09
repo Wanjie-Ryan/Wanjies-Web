@@ -19,7 +19,7 @@ function Header() {
         <div className="container header_container">
 
           <h5>Hello,&#128075; I Go By the Name,</h5>
-          <h1>Wanjie Ryan.</h1> 
+          <h1 className='slide'>Wanjie Ryan.</h1> 
 
           <h5 className="text-light">I am a FullStack Developer.</h5>
 
