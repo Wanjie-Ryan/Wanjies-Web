@@ -22,5 +22,68 @@ footer a{
 .links{
 
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+    margin:0 auto 3rem;
+
+}
+
+.links li a{
+
+    font-size: 1rem;
+
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin-bottom: 4rem;
+}
+
+.footer-socials a{
+
+    background: var(--color-bg);
+    color:var(--color-white);
+    padding:0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    font-size: 1.2rem;
+    border:1px solid transparent;
+}
+
+.footer-socials a:hover{
+
+    background: transparent;
+    color:var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer-copyright{
+
+    margin-bottom: 4rem;
+    color:var(--color-bg);
+    font-size: 1.25rem;
+}
+
+@media screen  and (max-width:1024px){
+
+    .links{
+
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+
+    .links{
+
+        flex-direction: column;
+        gap:1.5rem;
+    }
     
 }
