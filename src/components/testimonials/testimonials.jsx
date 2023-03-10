@@ -54,13 +54,13 @@ function Testimonials() {
 
               return(
 
-                <article className="test">
+                <article key = {id} className="test">
 
 
                   <div className="client-details">
 
-                    <h5 className="client-name"></h5>
-                    <small className="client-rev"></small>
+                    <h5 className="client-name">{name}</h5>
+                    <small className="client-rev">{review}</small>
 
 
                   </div>
