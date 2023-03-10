@@ -1,5 +1,15 @@
 import React from 'react'
 import './testimonials.css'
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+// import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
 
 
 
@@ -46,7 +56,7 @@ function Testimonials() {
 
 
 
-        <div className="container tes-container">
+        <Swiper className="container tes-container">
 
           {
 
@@ -54,7 +64,7 @@ function Testimonials() {
 
               return(
 
-                <article key = {id} className="test">
+                <SwiperSlide key = {id} className="test">
 
 
                   <div className="client-details">
@@ -68,7 +78,7 @@ function Testimonials() {
 
 
 
-                </article>
+                </SwiperSlide>
               )
 
 
@@ -77,7 +87,7 @@ function Testimonials() {
 
           }
 
-        </div>
+        </Swiper>
 
 
 
