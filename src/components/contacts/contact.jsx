@@ -24,7 +24,7 @@ function Contact() {
 
           <article className="contact-option">
 
-            <MdEmail/>
+            <MdEmail className = 'icons'/>
             <h4>Email</h4>
             {/* <h5>ryanwanjie1@gmail.com</h5> */}
             <a href ='mailto:ryanwanjie1@gmail.com' target ='_blank' rel="noreferrer">Send an Email</a>
@@ -36,7 +36,7 @@ function Contact() {
 
           <article className="contact-option">
 
-            <BiPhoneCall/>
+            <BiPhoneCall className = 'icons'/>
             <h4>Call me</h4>
             {/* <h5>ryanwanjie1@gmail.com</h5> */}
             <a href ='tel:+254791618714' target ='_blank' rel="noreferrer">Call me, Let's engage.</a>
@@ -48,7 +48,7 @@ function Contact() {
 
           <article className="contact-option">
 
-            <BsWhatsapp/>
+            <BsWhatsapp className = 'icons'/>
             <h4>Whatsapp</h4>
             {/* <h5>ryanwanjie1@gmail.com</h5> */}
             <a href="https://api.whatsapp.com/send?phone=254791618714" target ='_blank' rel="noreferrer" >Reach me on Whatsapp</a>
