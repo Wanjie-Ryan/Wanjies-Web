@@ -54,21 +54,20 @@ function Contact() {
             <a href="https://api.whatsapp.com/send?phone=254791618714" target ='_blank' rel="noreferrer" >Reach me on Whatsapp</a>
 
 
-
           </article>
-
-
-
-
-
-
 
 
         </div>
 
         <form action =''>
 
+          <input type ='text' name='name' placeholder ='Your Full name' required />
 
+          <input type ='email' name='email' placeholder ='Your Email address' required />
+
+          <textarea name ='message' rows='7' placeholder='Your message' required></textarea>
+
+          <button type ='submit' className="btn btn-primary">Send Message</button>
 
 
 
