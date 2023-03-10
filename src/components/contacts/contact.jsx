@@ -11,7 +11,16 @@ function Contact() {
 
     <>
     
-    <section id ='contact'>contact</section>
+    <section id ='contact'>
+
+      <h5>Get In Touch</h5>
+      <h2 class ='bounce'>Contact Me.</h2>
+
+
+
+
+
+    </section>
     
     </>
 
