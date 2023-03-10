@@ -70,7 +70,7 @@ footer a{
 @media screen  and (max-width:1024px){
 
     .links{
-
+ 
         flex-direction: column;
         gap:1.5rem;
     }
