@@ -78,6 +78,11 @@ input, textarea{
 
 @media screen and (max-width:1024px){
 
+    .contact-container{
+
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
 
     
 }
@@ -88,6 +93,11 @@ input, textarea{
 
 @media screen and (max-width:600px) {
 
-    
+    .contact-container{
+
+        width:var(--container-width-sm);
+    }
+
+
     
 }
