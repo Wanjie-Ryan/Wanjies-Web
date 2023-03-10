@@ -17,7 +17,7 @@ function Footer() {
       <footer>
 
 
-        <a href ='#home'>Wanjie Ryan</a>
+        <a href ='#home' className='footer-wanjie'>Wanjie Ryan</a>
 
 
         <ul className="links">
@@ -81,7 +81,7 @@ function Footer() {
 
           <div className="footer-copyright">
 
-            <small></small>
+            <small>&copy; Wanjie Ryan. All Rights Reserved. {new Date().getFullYear()}</small>
 
 
           </div>
