@@ -5,6 +5,8 @@ import {BsWhatsapp} from 'react-icons/bs'
 import {BiPhoneCall} from 'react-icons/bi'
 import emailjs from 'emailjs-com'
 
+
+
 function Contact() {
 
   const form = useRef()
@@ -13,15 +15,17 @@ function Contact() {
 
     e.preventDefault();
 
-    emailjs.sendForm('', '', form.current, '')
+    emailjs.sendForm('service_qk9tbm9', 'template_7i9342m', form.current, '0f4fZFS8wPre3XSug')
       .then((result)=>{
         console.log(result.text)
       }, (error)=>{
         console.log(error.text)
       })
 
+      e.target.reset()
 
-  }
+
+    }
 
 
   return (
