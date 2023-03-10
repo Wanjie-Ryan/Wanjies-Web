@@ -1,10 +1,27 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
 import {BiPhoneCall} from 'react-icons/bi'
+import emailjs from 'emailjs-com'
 
 function Contact() {
+
+  const form = useRef()
+
+  const sendEmail = (e)=>{
+
+    e.preventDefault();
+
+    emailjs.sendForm('', '', form.current, '')
+      .then((result)=>{
+        console.log(result.text)
+      }, (error)=>{
+        console.log(error.text)
+      })
+
+
+  }
 
 
   return (
@@ -59,7 +76,7 @@ function Contact() {
 
         </div>
 
-        <form action =''>
+        <form ref = {form} onSubmit ={sendEmail}>
 
           <input type ='text' name='name' placeholder ='Your Full name' required />
 
