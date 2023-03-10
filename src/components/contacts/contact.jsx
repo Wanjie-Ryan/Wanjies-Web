@@ -1,8 +1,8 @@
 import React from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
-
-
+import {BsWhatsapp} from 'react-icons/bs'
+import {BiPhoneCall} from 'react-icons/bi'
 
 function Contact() {
 
@@ -26,7 +26,7 @@ function Contact() {
 
             <MdEmail/>
             <h4>Email</h4>
-            <h5>ryanwanjie1@gmail.com</h5>
+            {/* <h5>ryanwanjie1@gmail.com</h5> */}
             <a href ='mailto:ryanwanjie1@gmail.com'>Send an Email</a>
 
 
@@ -34,24 +34,24 @@ function Contact() {
           </article>
 
 
-          {/* <article className="contact-option">
+          <article className="contact-option">
 
-            <MdEmail/>
-            <h4>Email</h4>
-            <h5>ryanwanjie1@gmail.com</h5>
-            <a href ='mailto:ryanwanjie1@gmail.com'>Send an Email</a>
+            <BiPhoneCall/>
+            <h4>Call me</h4>
+            {/* <h5>ryanwanjie1@gmail.com</h5> */}
+            <a href ='tel:+254791618714'>Call me, Let's engage.</a>
 
 
 
-          </article> */}
+          </article>
 
 
           <article className="contact-option">
 
-            <MdEmail/>
-            <h4>Email</h4>
-            <h5>ryanwanjie1@gmail.com</h5>
-            <a href ='mailto:ryanwanjie1@gmail.com'>Send an Email</a>
+            <BsWhatsapp/>
+            <h4>Whatsapp</h4>
+            {/* <h5>ryanwanjie1@gmail.com</h5> */}
+            <a href="https://api.whatsapp.com/send?phone=254791618714">Reach me on Whatsapp</a>
 
 
 
