@@ -7,12 +7,12 @@ const Themecontext = React.createContext()
 const Themeupdatecontext = React.createContext()
 
 
-export function useTheme(){
+export function UseTheme(){
 
     return useContext(Themecontext)
 }
 
-export function usethemeupdate(){
+export function Usethemeupdate(){
 
     return useContext(Themeupdatecontext)
 }
