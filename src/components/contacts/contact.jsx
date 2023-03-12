@@ -88,6 +88,8 @@ function Contact() {
 
           <textarea name ='message' rows='7' placeholder='Your message' required></textarea>
 
+          
+
           <button type ='submit' className="btn btn-primary">Send Message</button>
 
 
