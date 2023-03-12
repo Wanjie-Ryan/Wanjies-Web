@@ -21,9 +21,17 @@ function Contact() {
       .then((result)=>{
         console.log(result.text)
         setmessage(`Message was sent successfully!`)
+
+        setTimeout(() => {
+          setmessage(null);
+        }, 2000);
       }, (error)=>{
         console.log(error.text)
         setmessage(`Message was not sent, try again later!`)
+
+        setTimeout(() => {
+          setmessage(null);
+        }, 2000);
       })
 
       e.target.reset()
