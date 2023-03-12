@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useState, useRef} from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -11,6 +11,8 @@ function Contact() {
 
   const form = useRef()
 
+  const [message, setmessage]= useState(null)
+
   const sendEmail = (e)=>{
 
     e.preventDefault();
@@ -18,8 +20,10 @@ function Contact() {
     emailjs.sendForm('service_qk9tbm9', 'template_7i9342m', form.current, '0f4fZFS8wPre3XSug')
       .then((result)=>{
         console.log(result.text)
+        setmessage(`Message was sent successfully!`)
       }, (error)=>{
         console.log(error.text)
+        setmessage(`Message was not sent, try again later!`)
       })
 
       e.target.reset()
@@ -88,9 +92,11 @@ function Contact() {
 
           <textarea name ='message' rows='7' placeholder='Your message' required></textarea>
 
-          
-
+            
           <button type ='submit' className="btn btn-primary">Send Message</button>
+            
+            
+          {message && <h2>{message}</h2>}
 
 
 
