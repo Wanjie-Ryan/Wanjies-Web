@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/port'
 import Test from './components/testimonials/testimonials'
 import Contact from './components/contacts/contact'
 import Footer from './components/footer/footer'
+import { Themeprovider } from './context'
 
 
 
@@ -18,16 +19,21 @@ function App() {
   return (
 
     <>
+
+      <Themeprovider>
+
+          <Header/>
+          <Nav/>
+          <About/>
+          <Experience/>
+          <Services/>
+          <Portfolio/>
+          <Test/>
+          <Contact/>
+          <Footer/>
+          
+      </Themeprovider>
     
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
-      <Test/>
-      <Contact/>
-      <Footer/>
 
     
     </>
