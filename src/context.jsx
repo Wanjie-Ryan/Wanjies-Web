@@ -7,15 +7,43 @@ const Themecontext = React.createContext()
 const Themeupdatecontext = React.createContext()
 
 
+export function useTheme(){
 
-export function Themeprovider() {
+    return useContext(Themecontext)
+}
 
+export function usethemeupdate(){
+
+    return useContext(Themeupdatecontext)
+}
+
+
+export function Themeprovider({children}) {
+
+
+    const [darktheme, setdarktheme] = useState(true)
+
+
+    function toggletheme(){
+
+      setdarktheme(prevdarktheme => !prevdarktheme)
+    }
 
 
   return (
 
 
-    <div>context</div>
+    <Themecontext.Provider value ={darktheme}>
+
+      <Themeupdatecontext.Provider value ={toggletheme}>
+
+
+        {children}
+
+
+      </Themeupdatecontext.Provider>
+
+    </Themecontext.Provider>
 
 
 
