@@ -5,6 +5,12 @@ header{
     overflow: hidden;
 }
 
+.toggle{
+
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 .header_container{
 
     text-align: center;
