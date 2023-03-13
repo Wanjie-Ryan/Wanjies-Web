@@ -104,17 +104,17 @@ header{
 
 @media screen and (max-width:1024px){
 
-    /* .container{
+     /* .container{ 
 
         background-color: red;
-    } */
+    }  */
 
     header{
 
         height:68vh;
     }
     
-}
+ } 
 
 
             /* For small devices like phones */
@@ -123,9 +123,9 @@ header{
 
     /* .container{
 
-        background-color: red;
-    } */
-
+        /* background-color: red; */
+    /* } */
+  
     header{
 
         height:100vh;
@@ -137,4 +137,4 @@ header{
     }
     
 }
- 
+  
