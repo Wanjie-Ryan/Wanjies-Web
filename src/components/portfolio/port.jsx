@@ -99,13 +99,13 @@ function Port() {
             </div>
 
 
-            <h3>Rawa Booking App.</h3>
+            <h3>Mystic Travels.</h3>
 
             <div className="port-cta">
 
 
               <a href ='https://github.com/Wanjie-Ryan/Modern-Reservations-App' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+              <a href ='https://mystictravels.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
             </div>
 
