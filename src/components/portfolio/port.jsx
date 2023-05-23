@@ -2,7 +2,7 @@ import React from 'react'
 import './port.css'
 import video from '../../images/waka.mp4'
 import hive from '../../images/beehive.png'
-
+import nikeclone from '../../images/nike clone.png'
 
 // const data =[
 
@@ -125,6 +125,29 @@ function Port() {
 
 
           </article>
+
+
+          <article className="portfolio-item">
+
+            <div className="portimage">
+
+            <img src = {nikeclone} alt = ''/>
+            </div>
+
+
+            <h3>1-pager Nike Clone.</h3>
+
+            <div className="port-cta">
+
+
+              <a href ='https://github.com/Wanjie-Ryan/Nike-Store' className='btn' target = '_blank' rel="noreferrer">Github</a>
+              <a href ='https://nikesstore.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+
+            </div>
+
+
+          </article>
+
 
         </div>
 
