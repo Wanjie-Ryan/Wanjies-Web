@@ -154,17 +154,17 @@ function Port() {
 
             <div className="portimage">
 
-            <img src = {nikeclone} alt = ''/>
+            <img src = {ticTac} alt = ''/>
             </div>
 
 
-            <h3>1-pager Nike Clone.</h3>
+            <h3>TicTac Game.</h3>
 
             <div className="port-cta">
 
 
-              <a href ='https://github.com/Wanjie-Ryan/Nike-Store' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://nikesstore.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+              <a href ='https://github.com/Wanjie-Ryan/Tic-Tac-Game' className='btn' target = '_blank' rel="noreferrer">Github</a>
+              <a href ='https://tictacryan.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
             </div>
 
