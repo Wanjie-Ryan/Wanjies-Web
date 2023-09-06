@@ -1,7 +1,7 @@
 import React from "react";
 import "./port.css";
 import video from "../../images/waka.mp4";
-import hive from "../../images/beehive.png";
+import ryanChats from "../../images/ryanChats.png";
 import ManageAdmin from "../../images/Admin-Lets Manage.png";
 import MemberManage from "../../images/Member- Lets Manage.png";
 import ticTac from "../../images/ticTac.png";
@@ -102,14 +102,14 @@ function Port() {
 
           <article className="portfolio-item">
             <div className="portimage">
-              <img src={hive} alt="" />
+              <img src={ryanChats} alt="" />
             </div>
 
-            <h3>Superior Beehive.</h3>
+            <h3>Mini WhatsApp.</h3>
 
             <div className="port-cta">
               <a
-                href="https://github.com/Wanjie-Ryan/BeeTree-client"
+                href="https://github.com/Wanjie-Ryan/chat-client"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -117,7 +117,7 @@ function Port() {
                 Github
               </a>
               <a
-                href="https://thybee.netlify.app/"
+                href="https://ryanchats.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
