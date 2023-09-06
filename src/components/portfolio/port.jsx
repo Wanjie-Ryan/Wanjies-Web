@@ -2,31 +2,12 @@ import React from 'react'
 import './port.css'
 import video from '../../images/waka.mp4'
 import hive from '../../images/beehive.png'
-import nikeclone from '../../images/nike clone.png'
+import ManageAdmin from '../../images/Admin-Lets Manage.png'
+import MemberManage from '../../images/Member- Lets Manage.png'
 import ticTac from '../../images/ticTac.png'
 
 
-// const data =[
 
-//   {
-//     id:1,
-//     image: hive,
-//     title:'Superior Beehive.',
-//     github:'https://github.com/Wanjie-Ryan/BeeTree-client',
-//     demo:'https://thybee.netlify.app/'
-//   },
-
-//   {
-//     id:2,
-//     image: hive,
-//     title:'Rawa Booking App.',
-//     github:'https://github.com/Wanjie-Ryan/Modern-Reservations-App',
-//     demo:'https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie'
-
-//   }
-
-
-// ]
 
 function Port() {
 
@@ -43,6 +24,32 @@ function Port() {
         <h2 className='bounce' >Portfolio</h2>
 
         <div className="container portfolio-container">
+
+        <article className="portfolio-item">
+
+<div className="portimage">
+
+    <video controls className='video'>
+      <source src={video} type="video/mp4" />
+      Your browser does not support the video.
+    </video>
+
+</div>
+
+
+<h3>Wakawaka Real Estate Management System.</h3>
+
+<div className="port-cta">
+
+
+  <a href ='https://github.com/orgs/Astro-Devs-Tech/repositories' className='btn' target = '_blank' rel="noreferrer">Github</a>
+  <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+
+</div>
+
+
+
+</article>
 
           <article className="portfolio-item">
 
@@ -91,23 +98,45 @@ function Port() {
 
           </article>
 
+          <article className="portfolio-item">
+
+            <div className="portimage">
+
+            <img src = {ManageAdmin} alt = 'Lets Manage'/>
+            </div>
+
+
+            <h3>Let's Manage Admin.</h3>
+
+            <div className="port-cta">
+
+
+              <a href ='https://github.com/Wanjie-Ryan/Project-management' className='btn' target = '_blank' rel="noreferrer">Github</a>
+              <a href ='https://project-task-management.vercel.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+
+            </div>
+
+
+          </article>
+
+
 
 
           <article className="portfolio-item">
 
             <div className="portimage">
 
-            <img src = '' alt = ''/>
+            <img src = {MemberManage} alt = 'Lets Manage'/>
             </div>
 
 
-            <h3>Mystic Travels.</h3>
+            <h3>Let's Manage Member.</h3>
 
             <div className="port-cta">
 
 
-              <a href ='https://github.com/Wanjie-Ryan/Modern-Reservations-App' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://mystictravels.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+              <a href ='https://github.com/Wanjie-Ryan/Project-management' className='btn' target = '_blank' rel="noreferrer">Github</a>
+              <a href ='https://project-task-management.vercel.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
             </div>
 
@@ -129,27 +158,7 @@ function Port() {
           </article>
 
 
-          <article className="portfolio-item">
-
-            <div className="portimage">
-
-            <img src = {nikeclone} alt = ''/>
-            </div>
-
-
-            <h3>1-pager Nike Clone.</h3>
-
-            <div className="port-cta">
-
-
-              <a href ='https://github.com/Wanjie-Ryan/Nike-Store' className='btn' target = '_blank' rel="noreferrer">Github</a>
-              <a href ='https://nikesstore.netlify.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
-
-            </div>
-
-
-          </article>
-
+          
           <article className="portfolio-item">
 
             <div className="portimage">
