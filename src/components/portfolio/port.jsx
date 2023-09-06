@@ -5,7 +5,8 @@ import hive from '../../images/beehive.png'
 import ManageAdmin from '../../images/Admin-Lets Manage.png'
 import MemberManage from '../../images/Member- Lets Manage.png'
 import ticTac from '../../images/ticTac.png'
-
+import monica from '../../images/monica.png'
+import monicaClergy from '../../images/monica-clergy.png'
 
 
 
@@ -27,23 +28,19 @@ function Port() {
 
         <article className="portfolio-item">
 
-<div className="portimage">
+        <div className="portimage">
 
-    <video controls className='video'>
-      <source src={video} type="video/mp4" />
-      Your browser does not support the video.
-    </video>
-
+<img src = {monica} alt ='Ack St.Monica Church'/>
 </div>
 
 
-<h3>Wakawaka Real Estate Management System.</h3>
+<h3>ACK St.Monica Church.</h3>
 
 <div className="port-cta">
 
 
-  <a href ='https://github.com/orgs/Astro-Devs-Tech/repositories' className='btn' target = '_blank' rel="noreferrer">Github</a>
-  <a href ='https://www.youtube.com/watch?v=_I9UakCEOnY&t=1s&ab_channel=RyanWanjie' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
+  <a href ='https://github.com/Wanjie-Ryan/Monica-Client' className='btn' target = '_blank' rel="noreferrer">Github</a>
+  <a href ='https://monica-client.vercel.app/' className='btn btn-primary' target = '_blank' rel="noreferrer">Live Demo</a>
 
 </div>
 
