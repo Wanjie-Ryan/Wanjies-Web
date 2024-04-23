@@ -220,6 +220,33 @@ function Port() {
               </a>
             </div>
           </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={ticTac} alt="" />
+            </div>
+
+            <h3>Kenyan Gift Art And Jewelry Shop.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan/Tic-Tac-Game"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://tictacryan.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
         </div>
       </section>
     </>

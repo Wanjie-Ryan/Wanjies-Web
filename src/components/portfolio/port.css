@@ -1,86 +1,73 @@
-.portfolio-container{
-
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:2.5rem;
-
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
-.portfolio-item{
-
-    background:var(--color-bg-variant);
-    padding:1.3rem;
-    border-radius: 2rem;
-    border:1px solid transparent;
-    transition:var(--transition);
+.portfolio-item {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
-.portfolio-item:hover{
-
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.portfolio-item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
-.portimage{
-    border-radius: 1.5rem;
-    overflow: hidden;
+.portimage {
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
-
-.portfolio-item h3{
-
-    margin:1.2rem 0 2rem;
+.portfolio-item h3 {
+  margin: 1.2rem 0 2rem;
 }
 
-
-.port-cta{
-
-    display:flex;
-    gap:1.3rem;
-    margin-bottom: 1rem;
+.port-cta {
+  display: flex;
+  gap: 1.3rem;
+  margin-bottom: 1rem;
 }
 
-.bounce{
-
-    animation-name: bounce;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
   }
-
-
-        /* medium screen  for tablets */
-
-@media screen and (max-width:1024px){
-
-    .portfolio-container{
-
-        grid-template-columns: 1fr 1fr;
-        gap:1.2rem;
-    }
-
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
+/* medium screen  for tablets */
 
-        /* for small screens like tablets */
-
-@media screen and (max-width:600px) {
-
-
-    .portfolio-container{
-        grid-template-columns: 1fr;
-        gap:1rem;
-        
-    }
-    
+@media screen and (max-width: 1024px) {
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
 }
 
+/* for small screens like tablets */
+
+@media screen and (max-width: 600px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
 
 /* .bot{
 

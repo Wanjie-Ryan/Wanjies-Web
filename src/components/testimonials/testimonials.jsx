@@ -1,30 +1,30 @@
-
-import React from 'react';
-import './testimonials.css';
-import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import React from "react";
+import "./testimonials.css";
+import { Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 function Testimonials() {
   const data = [
     {
       id: 1,
-      name: 'Astro Devs Group',
+      name: "Astro Devs Group",
       review:
-        'We collaborated with Wanjie in building the Hackathon project; Real Estate management system, he is highly skilled lad and great to work with.',
+        "We collaborated with Wanjie in building the Hackathon project; Real Estate management system, he is highly skilled lad and great to work with.",
     },
     {
       id: 2,
-      name: 'Philip Waruinge',
-      review: 'Developed the Superior Beehive website for me, I highly Recommend.',
+      name: "Philip Waruinge",
+      review:
+        "Developed the Superior Beehive website for me, I highly Recommend.",
     },
     {
       id: 3,
-      name: 'Wanjie Ryan',
+      name: "Wanjie Ryan",
       review:
-        'Developed the Rawa Booking App, it is a great site that can boost the customers coming to your hotel, I highly recommend Wanjie.',
+        "Developed the Rawa Booking App, it is a great site that can boost the customers coming to your hotel, I highly recommend Wanjie.",
     },
   ];
 
