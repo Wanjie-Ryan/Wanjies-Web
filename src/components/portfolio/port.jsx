@@ -7,7 +7,10 @@ import MemberManage from "../../images/Member- Lets Manage.png";
 import ticTac from "../../images/ticTac.png";
 import monica from "../../images/monica.png";
 import monicaClergy from "../../images/monica-clergy.png";
-
+import GiftShop from "../../images/gift shop.png";
+import Watugot from "../../images/watugot-admin.png";
+import Salam from "../../images/salam.jpeg";
+import bloodbanks from "../../images/bloodbanks.png";
 function Port() {
   return (
     <>
@@ -223,14 +226,14 @@ function Port() {
 
           <article className="portfolio-item">
             <div className="portimage">
-              <img src={ticTac} alt="" />
+              <img src={GiftShop} alt="" />
             </div>
 
             <h3>Kenyan Gift Art And Jewelry Shop.</h3>
 
             <div className="port-cta">
               <a
-                href="https://github.com/Wanjie-Ryan/Tic-Tac-Game"
+                href="https://github.com/Astro-Devs-Tech/Gift-Shop"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -238,7 +241,88 @@ function Port() {
                 Github
               </a>
               <a
-                href="https://tictacryan.netlify.app/"
+                href="https://gift-shop.pages.dev/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={Watugot} alt="" />
+            </div>
+
+            <h3>Watugot Admin Panel.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://admin-dev.watugot.org/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={Salam} alt="" />
+            </div>
+
+            <h3>Store Billing System- C#.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan/Wiko-Store---Billing-System"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://ryanwanjie.vercel.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={bloodbanks} alt="" />
+            </div>
+
+            <h3>Blood Banks Management System- C#.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan/Blood-Bank-Management-system"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://ryanwanjie.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
