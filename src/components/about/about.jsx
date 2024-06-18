@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import MyImage from "../../images/me.jpeg";
+// import MyImage from "../../images/me.jpeg";
 import { FaAward, FaUsers } from "react-icons/fa";
 import { BsFolderFill } from "react-icons/bs";
 import Pic1 from "../../images/pic1.jpg";
