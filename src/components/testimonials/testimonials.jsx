@@ -12,19 +12,35 @@ function Testimonials() {
       id: 1,
       name: "Astro Devs Group",
       review:
-        "We collaborated with Wanjie in building the Hackathon project; Real Estate management system, he is highly skilled lad and great to work with.",
+        "We collaborated with Wanjie in building a Hackathon project; Real Estate management system, he is highly skilled lad and great to work with.",
     },
+
     {
       id: 2,
-      name: "Philip Waruinge",
+      name: "International Centre For Reproductive Health",
       review:
-        "Developed the Superior Beehive website for me, I highly Recommend.",
+        "Ryan Wanjie is a great data analyst, during his time at the International Centre for Reproductive Health, he was very active, and we highly recommend.",
     },
+
     {
       id: 3,
+      name: "Stephen Nzioka",
+      review:
+        "Ryan Wanjie Developed for me the freeLance experts systems, such a professional guy!!",
+    },
+
+    {
+      id: 4,
       name: "Wanjie Ryan",
       review:
         "Developed the Rawa Booking App, it is a great site that can boost the customers coming to your hotel, I highly recommend Wanjie.",
+    },
+
+    {
+      id: 5,
+      name: "Philip Waruinge",
+      review:
+        "Developed the Superior Beehive website for me, I highly Recommend.",
     },
   ];
 
