@@ -11,6 +11,8 @@ import GiftShop from "../../images/gift shop.png";
 import Watugot from "../../images/watugot-admin.png";
 import Salam from "../../images/salam.jpeg";
 import bloodbanks from "../../images/bloodbanks.png";
+import Client from '../../images/client.png';
+import FreeLancer from '../../images/freelanceexperts.png'
 function Port() {
   return (
     <>
@@ -19,6 +21,68 @@ function Port() {
         <h2 className="bounce">Portfolio</h2>
 
         <div className="container portfolio-container">
+
+
+
+        <article className="portfolio-item">
+            <div className="portimage">
+              <img src={Client} alt="Ack St.Monica Church" />
+            </div>
+
+            <h3>The FreeLance Experts - Client</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan/"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://thefreelanceexperts.com"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={FreeLancer} alt="Ack St.Monica Church" />
+            </div>
+
+            <h3>The FreeLance Experts - FreeLancer</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://thelegalfiledrafts.com"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+
+
+
           <article className="portfolio-item">
             <div className="portimage">
               <img src={monica} alt="Ack St.Monica Church" />
