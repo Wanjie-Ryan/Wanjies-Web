@@ -11,8 +11,9 @@ import GiftShop from "../../images/gift shop.png";
 import Watugot from "../../images/watugot-admin.png";
 import Salam from "../../images/salam.jpeg";
 import bloodbanks from "../../images/bloodbanks.png";
-import Client from '../../images/client.png';
-import FreeLancer from '../../images/freelanceexperts.png'
+import Client from "../../images/client.png";
+import FreeLancer from "../../images/freelanceexperts.png";
+import Nana from "../../images/nana.png";
 function Port() {
   return (
     <>
@@ -21,10 +22,7 @@ function Port() {
         <h2 className="bounce">Portfolio</h2>
 
         <div className="container portfolio-container">
-
-
-
-        <article className="portfolio-item">
+          <article className="portfolio-item">
             <div className="portimage">
               <img src={Client} alt="Ack St.Monica Church" />
             </div>
@@ -50,8 +48,6 @@ function Port() {
               </a>
             </div>
           </article>
-
-
 
           <article className="portfolio-item">
             <div className="portimage">
@@ -80,8 +76,32 @@ function Port() {
             </div>
           </article>
 
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={Nana} alt="Ack St.Monica Church" />
+            </div>
 
+            <h3>NanaTec Solutions</h3>
 
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://nana-tec-solutions.vercel.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
 
           <article className="portfolio-item">
             <div className="portimage">
@@ -128,6 +148,114 @@ function Port() {
               </a>
               <a
                 href="https://monica-clergy.vercel.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={ManageAdmin} alt="Lets Manage" />
+            </div>
+
+            <h3>Let's Manage Admin.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan/Project-management"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://project-task-management.vercel.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={MemberManage} alt="Lets Manage" />
+            </div>
+
+            <h3>Let's Manage Member.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Wanjie-Ryan/Project-management"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://project-task-management.vercel.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={GiftShop} alt="" />
+            </div>
+
+            <h3>Kenyan Gift Art And Jewelry Shop.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com/Astro-Devs-Tech/Gift-Shop"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://gift-shop.pages.dev/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio-item">
+            <div className="portimage">
+              <img src={Watugot} alt="" />
+            </div>
+
+            <h3>Watugot Admin Panel.</h3>
+
+            <div className="port-cta">
+              <a
+                href="https://github.com"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://admin-dev.watugot.org/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
@@ -196,60 +324,6 @@ function Port() {
 
           <article className="portfolio-item">
             <div className="portimage">
-              <img src={ManageAdmin} alt="Lets Manage" />
-            </div>
-
-            <h3>Let's Manage Admin.</h3>
-
-            <div className="port-cta">
-              <a
-                href="https://github.com/Wanjie-Ryan/Project-management"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://project-task-management.vercel.app/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
-          </article>
-
-          <article className="portfolio-item">
-            <div className="portimage">
-              <img src={MemberManage} alt="Lets Manage" />
-            </div>
-
-            <h3>Let's Manage Member.</h3>
-
-            <div className="port-cta">
-              <a
-                href="https://github.com/Wanjie-Ryan/Project-management"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://project-task-management.vercel.app/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
-          </article>
-
-          <article className="portfolio-item">
-            <div className="portimage">
               <iframe
                 width="350"
                 height="430"
@@ -279,60 +353,6 @@ function Port() {
               </a>
               <a
                 href="https://tictacryan.netlify.app/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
-          </article>
-
-          <article className="portfolio-item">
-            <div className="portimage">
-              <img src={GiftShop} alt="" />
-            </div>
-
-            <h3>Kenyan Gift Art And Jewelry Shop.</h3>
-
-            <div className="port-cta">
-              <a
-                href="https://github.com/Astro-Devs-Tech/Gift-Shop"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://gift-shop.pages.dev/"
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
-          </article>
-
-          <article className="portfolio-item">
-            <div className="portimage">
-              <img src={Watugot} alt="" />
-            </div>
-
-            <h3>Watugot Admin Panel.</h3>
-
-            <div className="port-cta">
-              <a
-                href="https://github.com"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://admin-dev.watugot.org/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
