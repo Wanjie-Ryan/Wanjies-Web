@@ -6,96 +6,85 @@ function Service() {
   return (
     <>
       <section id="services">
-        <h5>What I Offer...</h5>
-        <h2 class="bounce">Services</h2>
+        <h5>My Expertise</h5>
+        <h2 className="bounce">Services</h2>
 
         <div className="container services-container">
           <article className="service">
             <div className="service-head">
-              <h3>Machine Learning & Data Visualization.</h3>
+              <h3>Machine Learning & Data Visualization</h3>
             </div>
 
             <ul className="service-list">
               <li>
                 <BiCheck className="icon" />
-
-                <p>Creating Models using Python.</p>
+                <p>Developing advanced models with Python</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Performing data Analysis and Visualization.</p>
+                <p>Executing data analysis and visualization</p>
               </li>
             </ul>
           </article>
 
           <article className="service">
             <div className="service-head">
-              <h3>Web Development.</h3>
+              <h3>Web Development</h3>
             </div>
 
             <ul className="service-list">
               <li>
                 <BiCheck className="icon" />
-
-                <p>Creating nice-looking and fully functional websites.</p>
+                <p>Building responsive and dynamic websites</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Creating and Managing Databases.</p>
+                <p>Designing and managing databases</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Optimizing Your website and make it better.</p>
+                <p>Optimizing website performance</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>UI/UX designing using Figma.</p>
+                <p>Crafting UI/UX designs with Figma</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Hosting your Website.</p>
+                <p>Website hosting and maintenance</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Integrating APIs such as Payment services.</p>
+                <p>Integrating APIs, including payment services</p>
+              </li>
+              <li>
+                <BiCheck className="icon" />
+                <p>Utilizing Docker for containerization</p>
+              </li>
+              <li>
+                <BiCheck className="icon" />
+                <p>Deploying and managing services on AWS</p>
               </li>
             </ul>
           </article>
 
           <article className="service">
             <div className="service-head">
-              <h3>Content Creation.</h3>
+              <h3>Content Creation</h3>
             </div>
 
             <ul className="service-list">
               <li>
                 <BiCheck className="icon" />
-
-                <p>Article and Blog writing.</p>
+                <p>Writing articles and blog posts</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Academic writing.</p>
+                <p>Producing academic papers</p>
               </li>
-
               <li>
                 <BiCheck className="icon" />
-
-                <p>Solving Computational and Technical problems.</p>
+                <p>Solving computational and technical challenges</p>
               </li>
             </ul>
           </article>
